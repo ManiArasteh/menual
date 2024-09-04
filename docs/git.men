@@ -1,0 +1,30 @@
+Git, a very popular version control
+// Cloning a repository from the internet (Anywhere, not only GitHub)
+git clone <repository url>
+Example: git clone https://github.com/beaglesoftware/beagleeditor.git
+// Initializing a new repository
+git init // Must be in a directory you want to code
+// Adding a remote repository
+git remote add <origin> <branch> <repository url>
+Example: git remote add origin main https://github.com/myaccount/myrepo.git
+// Push the repository to remote repository
+git push // Must be in repository's directory
+// Pull changes from remote repository
+git pull // Must be in repository's directory
+// Use binary search
+git bisect start
+git bisect run
+git bisect reset
+git bisect skip
+git bisect term
+git bisect next
+// Download objects and refs from another repository
+git fetch 
+// Add a file/files for commit 
+git add <file> // A file
+git add -A // All of the files
+// Commit changes
+git commit // Opens Nano editor for message
+git commit -m <message> // Commits with message passed to -m argument
+// Status of your repository
+git status // Must be in repository's directory
