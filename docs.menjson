@@ -1,7 +1,8 @@
 {
     "1": {
         "name": "Git",
-        "dmfmbma": "true",
-        "filename": "git"
+        "filename": "git",
+        "link": "https://raw.githubusercontent.com/ManiArasteh/menual/main/docs/git.men",
+        "tldrlink": "https://raw.githubusercontent.com/ManiArasteh/menual/main/docs/git_tldr.men"
     }
 }
